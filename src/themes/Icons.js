@@ -8,6 +8,7 @@ const Icons = {
   hide: require('../assets/icons/hide.png'),
   padlock: require('../assets/icons/padlock.png'),
   user: require('../assets/icons/user.png'),
+  whiteArrow: require('../assets/icons/whiteArrow.png'),
 };
 
 export default Icons;

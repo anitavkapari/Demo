@@ -1,0 +1,52 @@
+1. CCU Supervisor
+a. Login
+b. Forget Password
+c. Dashboard
+d. Create Case
+e. Unassigned case
+f. Ongoing Case
+g. Case History
+h. Case Report
+i. Create Event
+i. Event History
+j. Profile - Upload Profile Pic
+k. Change Password
+j. Logout
+
+2. Company Manager
+a. Login
+b. Forget Password
+c. Dashboard
+d. Create Case
+e. Ongoing Case
+f. Case History
+g. Profile - Upload Profile Pic
+h. Change Password
+i. Logout
+
+3.Company Viewer
+a. Login
+b. Forget Password
+c. Dashboard
+d. Ongoing Case
+e. Case History
+f. Profile - Upload Profile Pic
+g. Change Password
+h. Logout
+
+------------------------------------------------------
+
+4. CCU Care Giver (APP)
+a. Login
+b. Forget Password
+c. Dashboard
+b. My Pending Task
+c. My Ongoing task
+d. Case History
+e. Profile - Upload Profile Pic
+f. Change Password
+g. My Earnings
+h. Pending Events
+i. Ongoing Event
+j. Event History
+k. Logout

@@ -5,6 +5,8 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Splash from '../screens/splashScreen/Splash';
 import Login from '../screens/auth/Login';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import Dashboard from '../screens/Home/Dashboard';
+import EditUnassignedCase from '../screens/Home/EditUnassignedCase';
 
 
 const Stack = createNativeStackNavigator();
@@ -25,7 +27,16 @@ function StackNav() {
           options={{headerShown: false}}
         />
          
-          
+        <Stack.Screen
+        name="DashBoard"
+        component={Dashboard}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+      name="EditUnassignedCase"
+      component={EditUnassignedCase}
+      options={{headerShown: false}}
+    />
         </Stack.Navigator>
       </NavigationContainer>
     </GestureHandlerRootView>

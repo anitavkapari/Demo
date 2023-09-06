@@ -27,7 +27,7 @@ import Toast from '../../utils/helpers/Toast'
 let status = ''
 import connectionrequest from '../../utils/helpers/NetInfo';
 export default function Login() {
-  const navigate = useNavigation()
+  const navigation = useNavigation()
   const [Username, setusername] = useState('')
   const [Passhighlight, setpasshighlight] = useState(false)
   const [Userhighlight, setuserhighlight] = useState(false)
@@ -62,7 +62,7 @@ export default function Login() {
       case 'Auth/loginSuccess':
         status = AuthReducer.status;
         console.log(AuthReducer?.loginResponse, 'hello');
-        // navigation.navigate('Login')
+        navigation.navigate('DashBoard')
         break;
       case 'Auth/loginFailure':
         status = AuthReducer.status;
